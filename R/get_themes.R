@@ -10,4 +10,4 @@ get_themes <- function() {
   themes
 }
 
-#number_themes("4")
+#get_themes() %>% View()
