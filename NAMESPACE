@@ -1,0 +1,12 @@
+
+export(get_article)
+export(get_articles)
+export(get_links)
+export(get_number_of_pages)
+export(get_themes)
+export(get_titles)
+export(number_themes)
+export(search)
+
+import(rvest)
+import(stringr)
