@@ -1,5 +1,5 @@
-library(rvest)
-library(stringr)
+#' @export
+#' @import
 
 # Проход по статьям по теме
 get_articles <- function(number='') {

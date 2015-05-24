@@ -1,5 +1,5 @@
-library(rvest)
-library(stringr)
+#' @export
+#' @import
 
 # Количество страниц
 get_number_of_pages <- function(number='') {

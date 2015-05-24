@@ -1,5 +1,5 @@
-library(rvest)
-library(stringr)
+#' @export
+#' @import
 
 # Темы
 number_themes <- function(number='') {

@@ -1,5 +1,5 @@
-library(rvest)
-library(stringr)
+#' @export
+#' @import
 
 # Все ссылки статей по теме
 get_links <- function(number='', link2 = character()) {

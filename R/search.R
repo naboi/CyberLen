@@ -1,5 +1,5 @@
-library(rvest)
-library(stringr)
+#' @export
+#' @import
 
 # Поиск
 search <- function(request='', links2 = character(), article2 = character()){

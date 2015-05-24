@@ -1,5 +1,5 @@
-library(rvest)
-library(stringr)
+#' @export
+#' @import
 
 # Все названия и годы статей по теме
 get_titles <- function(number='', title2 = character() , year2 = character()) {
