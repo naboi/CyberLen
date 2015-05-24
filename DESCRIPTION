@@ -1,0 +1,7 @@
+Package: CyberLen
+Type: Package
+Version: 0.1
+Title: Interface to the Cyberleninka.ru
+Description: Package for scraping science articles from Cyberleninka.ru
+Author: naboi
+URL: https://github.com/naboi/CyberLen
