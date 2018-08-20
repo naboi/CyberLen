@@ -1,14 +1,33 @@
-# Получение списка тем
+РџРѕ-СЂСѓСЃСЃРєРё:
+
+# РџРѕР»СѓС‡РµРЅРёРµ СЃРїРёСЃРєР° С‚РµРј
 get_themes()
 
-# Все названия и годы статей по порядковому номеру темы
+# Р’СЃРµ РЅР°Р·РІР°РЅРёСЏ Рё РіРѕРґС‹ СЃС‚Р°С‚РµР№ РїРѕ РїРѕСЂСЏРґРєРѕРІРѕРјСѓ РЅРѕРјРµСЂСѓ С‚РµРјС‹
 get_titles("52")
 
-# Получение статьи по ссылке
+# РџРѕР»СѓС‡РµРЅРёРµ СЃС‚Р°С‚СЊРё РїРѕ СЃСЃС‹Р»РєРµ
 get_article("http://cyberleninka.ru/article/n/poisk-innovatsiy-v-sfere-tehnologiy")
 
-# Проход по статьям по порядковому номеру темы
+# РџРѕР»СѓС‡РµРЅРёРµ СЃС‚Р°С‚РµР№ РїРѕ РїРѕСЂСЏРґРєРѕРІРѕРјСѓ РЅРѕРјРµСЂСѓ С‚РµРјС‹
 get_articles("52")
 
-# Получение статей, содержащих определенный запрос
-search("санкт-петербург город анализ")
+# РџРѕР»СѓС‡РµРЅРёРµ СЃС‚Р°С‚РµР№, СЃРѕРґРµСЂР¶Р°С‰РёС… РѕРїСЂРµРґРµР»РµРЅРЅС‹Р№ Р·Р°РїСЂРѕСЃ
+search("СЃР°РЅРєС‚-РїРµС‚РµСЂР±СѓСЂРі РіРѕСЂРѕРґ Р°РЅР°Р»РёР·")
+
+In English:
+
+# Getting a list of topics
+get_themes()
+
+# Retrieving all titles and years of articles by the id of the topic
+get_titles("52")
+
+# Retrieving the article using link
+get_article("http://cyberleninka.ru/article/n/poisk-innovatsiy-v-sfere-tehnologiy")
+
+# Rerieving articles by the id of the topic
+get_articles("52")
+
+# Retrieving articles containing a specific search query
+search("Saint Petersburg analysis")
